@@ -9,6 +9,7 @@ This module provides functionality to process a DataFrame of cyclists' data.
 4. Removes specific substrings from anywhere within the club names.
 5. Strips leading and trailing whitespace from the club names.
 '''
+
 import pandas as pd
 
 def ex4(orbea_df: pd.DataFrame) -> pd.DataFrame:
